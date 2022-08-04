@@ -89,6 +89,30 @@ p {
   margin-bottom: 1rem;
 }
 
+.fa-facebook {
+  color: white;
+}
+
+.fa-facebook:hover {
+ color: #1094f4;
+ height: 34px;
+width: 34px;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+  border-radius: 9px;
+  color: black;
+  height: 33px;
+  width: 33px;
+}
+ 
+
+ 
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -118,6 +142,33 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+.footer-menu li p a {
+  color: white;
+}
+
+.footer-menu li p a:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-service li > p {
+  background-image: linear-gradient(transparent 0%, transparent 90%, red 90%, red 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
+}
+
+li > p:hover {
+  background-size: 60% 100%;
+  background-position-x: left;
 }
 
 dt {
@@ -9981,6 +10032,10 @@ hr.light {
 
 .page-section {
   padding: 6rem 0;
+}
+
+.page-section-footer {
+  padding: 3rem 0;
 }
 
 #mainNav {
